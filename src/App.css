@@ -14,14 +14,9 @@ header{
     height: 200px;
 }
 
-.header__div{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-}
-
-.a{
-    color: white;
+.cartWidget{
+    position: absolute;
+    right: 150px;
 }
 
 .section{
