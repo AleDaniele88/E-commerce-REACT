@@ -1,0 +1,29 @@
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.nav__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+
+.nav__ul div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav__li{
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
